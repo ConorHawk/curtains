@@ -1,0 +1,53 @@
+.curtain-wrapper{
+	height:100vh;
+	width:100wv;
+	display:flex;
+	overflow:hidden;
+
+}
+
+.curtain-left{
+	height:100%;
+	width:50%;
+	background:red;
+	transition: 3s all;
+	background:url(../img/curtains.jpg);
+}
+
+.curtain-right{
+	height:100%;
+	width:50%;
+	background:blue;
+	transition: 3s all;
+	background:url(../img/curtains.jpg);
+
+
+
+}
+
+.curtain-reveal{
+	position:fixed;
+	height:100vh;
+	width:100vw;
+	background:url(../img/photobooth.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	top:0;
+	z-index:-999;
+
+}
+
+.background-vid{
+	position:fixed;
+	height:100vh;
+	width:100vw;
+	background:url(../img/bg.gif);
+	top:0;
+	background-size:cover;
+	z-index:-9999;
+}
+
+*
+{
+	cursor:url(../img/cursor.png),auto;
+}
